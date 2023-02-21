@@ -8,7 +8,7 @@ coef1 = float(input("Introduza o coeficiente do x^2:"))
 coef2 = float(input("Introduza o coeficiente do x:"))
 coef3 = float(input("Introduza o coeficiente isolado:"))
 
-delta = (2*coef2) - (4 * coef1 * coef3)
+delta = (coef2*coef2) - (4 * coef1 * coef3)
 print(delta)
 if delta > 0:
     raiz1 = ((-coef2) + math.sqrt(delta)) / (2*coef1)
